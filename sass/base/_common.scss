@@ -1,0 +1,32 @@
+body {
+    color: var(--main-color);
+    font: var(--main-font);
+  }
+  
+  .address, .contacts {
+    font-style: normal;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  *, 
+  *::before, 
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  img {
+    
+    max-width: 100%;
+    height: auto;
+  }
